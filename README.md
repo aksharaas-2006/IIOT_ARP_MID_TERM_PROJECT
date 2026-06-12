@@ -6,17 +6,17 @@ To construct a simple Local Area Network (LAN) and understand the concept and op
 
 ## Problem Statement
 
-Design and simulate a simple LAN using PCs, an 8-port switch, and LAN cables. Configure IP addresses and demonstrate the working of ARP in resolving IP addresses into MAC addresses for communication within the network.
+Construct simple LAN and understand the concept and operation of Address Resolution Protocol (ARP) using Cisco Packet Tracer. Utilize PCs, 8 port switch and LAN cable
 
 ## Scope of the Solution
 
-* Build a simple LAN using Cisco Packet Tracer.
-* Configure IP addresses for connected devices.
-* Observe ARP Request and ARP Reply messages.
-* Verify communication using the ping command.
-* Understand IP-to-MAC address resolution.
+*Building a simple LAN using Cisco Packet Tracer.
+*Configure IP addresses of connected devices
+* Look at ARP Request and ARP Reply messages.
+*Test communication with the ping command.
+* Know how to resolve the IP addresses to MAC address.
 
-## Overview / Architecture of the Solution
+## Architecture of the Solution
 
 PC0 ---- Switch0 ---- PC1
 
@@ -43,16 +43,15 @@ PC1:
 ### Software Components
 
 * Cisco Packet Tracer
-* GitHub
 
 ## Working Principle
 
-1. PC0 sends an ARP Request to find the MAC address of PC1.
-2. The switch broadcasts the ARP Request.
-3. PC1 responds with an ARP Reply containing its MAC address.
-4. PC0 stores the MAC address in its ARP cache.
-5. Communication begins using the MAC address.
-6. Successful communication is verified using the ping command.
+1. The MAC address of PC1 is required by computer PC0, therefore computer PC0 will send ARP request.
+2. The switch will flood this ARP request to all other computers on the network.
+3. This request will be received by computer PC1 and it will respond back to PC0 with ARP reply which will be containing its MAC address.
+4. Computer PC0 will receive the MAC address and store it in its own ARP cache.
+5. The MAC address of the computer PC1 is found out and both computers PC0 and PC1 will be able to communicate with each other through the MAC address.
+6. We need to verify that a conversation is possible between the two computers by the use of the ping command.
 
 ## Results
 
@@ -60,4 +59,4 @@ The LAN was successfully configured and communication between PCs was establishe
 
 ## Conclusion
 
-The Address Resolution Protocol (ARP) was successfully studied and implemented using Cisco Packet Tracer. The experiment demonstrated how devices in a LAN resolve IP addresses into MAC addresses before communication occurs.
+The Address Resolution Protocol (ARP) was successfully studied and implemented using Cisco Packet Tracer. The project demonstrated how devices in a LAN resolve IP addresses into MAC addresses before communication occurs.
