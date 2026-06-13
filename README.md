@@ -12,9 +12,10 @@ Construct simple LAN and understand the concept and operation of Address Resolut
 
 *Building a simple LAN using Cisco Packet Tracer.
 *Configure IP addresses of connected devices
-* Look at ARP Request and ARP Reply messages.
+*Look at ARP Request and ARP Reply messages.
 *Test communication with the ping command.
-* Know how to resolve the IP addresses to MAC address.
+*Know how to resolve the IP addresses to MAC address.
+*Also check the MAC IP address for correct simulation.
 
 ## Architecture of the Solution
 
@@ -52,6 +53,7 @@ PC1:
 4. Computer PC0 will receive the MAC address and store it in its own ARP cache.
 5. The MAC address of the computer PC1 is found out and both computers PC0 and PC1 will be able to communicate with each other through the MAC address.
 6. We need to verify that a conversation is possible between the two computers by the use of the ping command.
+7. After using the ping command we also need to check the arp table if the MAC address is correct in order for the simulation to run perfectly.
 
 ## Results
 
