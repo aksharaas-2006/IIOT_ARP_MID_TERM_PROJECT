@@ -7,19 +7,18 @@ To construct a simple Local Area Network (LAN) and understand the concept and op
 ## Problem Statement
 
 Construct simple LAN and understand the concept and operation of Address Resolution Protocol (ARP) using Cisco Packet Tracer. Utilize PCs, 8 port switch and LAN cable
+One of the key protocols in the field of network communications is the Address Resolution Protocol (ARP), which is widely used to connect devices within the same Local Area Network (LAN).
+In IIoT, there are various types of devices connected to the network, where they communicate with each other using IP addresses. In order to ensure successful communication, it is critical to know the basics of how the ARP works.
+Even though ARP works automatically in any networked environment, it does not give much insight into how it works to ordinary users. Therefore, it is important to conduct an ARP experiment using Cisco Packet Tracer by setting up a LAN with two PCs communicating via the Switch. Thus, we will be able to monitor ARP request and reply messages and learn how IP addresses are translated into MAC addresses in simple scenarios. It should be noted that due to the fact that it is a simplified simulation, it is not designed to cover more complex networking technologies like routers and VLANs.
 
 ## Scope of the Solution
 
-*Building a simple LAN using Cisco Packet Tracer.
-*Configure IP addresses of connected devices
-*Look at ARP Request and ARP Reply messages.
-*Test communication with the ping command.
-*Know how to resolve the IP addresses to MAC address.
-*Also check the MAC IP address for correct simulation.
+This project will attempt to learn the operation of Address Resolution Protocol (ARP) in a basic Local Area Network (LAN). It attempts to create a network with the use of two PCs and a switch with Cisco Packet Tracer. This will be done through configuration of IP addresses and observing how ARP maps IP addresses into MAC addresses.
+The outcomes indicate that both ARP Request and ARP Reply are noticeable in this simulation experiment and good communication is achievable via the ping command. But because it is an experiment related to simulation, only simple LAN systems will be considered here without taking into account routers, VLANs, and wireless LANs.
 
 ## Architecture of the Solution
 
-PC0 ---- Switch0 ---- PC1
+PC0----Switch0----PC1
 
 ### IP Configuration
 
