@@ -52,7 +52,7 @@ PC1:
 4. Computer PC0 will receive the MAC address and store it in its own ARP cache.
 5. The MAC address of the computer PC1 is found out and both computers PC0 and PC1 will be able to communicate with each other through the MAC address.
 6. We need to verify that a conversation is possible between the two computers by the use of the ping command.
-7. After using the ping command we also need to check the arp table if the MAC address is correct in order for the simulation to run perfectly.
+7. After using the ping command, we also need to check the ARP table if the MAC address is correct for the simulation to run perfectly.
 
 ## Results
 
@@ -61,3 +61,4 @@ The LAN was successfully configured and communication between PCs was establishe
 ## Conclusion
 
 The Address Resolution Protocol (ARP) was successfully studied and implemented using Cisco Packet Tracer. The project demonstrated how devices in a LAN resolve IP addresses into MAC addresses before communication occurs.
+In this way, the Address Resolution Protocol (ARP) was effectively shown with the help of Cisco Packet Tracer. To perform the task, a LAN system was set up where there were two computers communicating through a switch. IP addresses were assigned for communication between computers. With the use of ping command and by looking at the ARP table, IP address-to-MAC address mapping process could be seen. In this way, the role of ARP in facilitating communication on networks became clear from the simulation.
