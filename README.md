@@ -38,7 +38,7 @@ PC1:
 
 * Personal Computer (Virtual PC)
 * 8-Port Switch
-* LAN Cable
+* Copper-LAN Cable
 
 ### Software Components
 
